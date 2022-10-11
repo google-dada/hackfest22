@@ -1,7 +1,13 @@
+//complete it
+
+
+package tutorials_jv;
 import java.util.Scanner;
 
 public class menu{
     public static void main(String[] args){
+
+
 
     Scanner sc = new Scanner(System.in);
 
@@ -17,38 +23,10 @@ public class menu{
         int n = sc.nextInt();
 
         switch(n){
-                //added cases for switch
 
-            case 1 :
-                System.out.print("Enter radius of the Circle: ");
-                float r = sc.nextFloat();
-                float arC = 3.14f*r*r;
-                System.out.printf("Area of the circle is = %f\n", arC);
-                break;
+//****************************************
+//your code
 
-            case 2:
-                System.out.print("Enter Length of the Rectangle: ");
-                float l = sc.nextFloat();
-                System.out.print("Enter Breadth of the Rectangle: ");
-                float b = sc.nextFloat();
-                float arR = l*b;
-                System.out.printf("Area of the Rectangle is = %f\n", arR);
-                break;
-
-
-            case 3:
-                System.out.print("Enter Height of the Triangle: ");
-                float h = sc.nextFloat();
-                System.out.print("Enter Base of the Triangle: ");
-                float ba = sc.nextFloat();
-                float arT = 0.5f*ba*h;
-                System.out.printf("Area of the Triangle is = %f\n1", arT);
-                break;
-
-
-            default:
-                System.out.println("Enter a valid choice!");
-                break;
 
         }
 
@@ -58,6 +36,8 @@ public class menu{
 
 
     }
+
+
 
     }
 }
